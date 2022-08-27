@@ -80,9 +80,9 @@
 					"exit": true
 				},
 				{
-					"icon": "grid-4",
-					"command": "BED_MESH_CAL_AND_SAVE",
-					"color": "#4bae50",
+					"icon": "bath",
+					"command": "CLEAN_POSITION",
+					"color": "#40739e",
 					"confirm": false,
 					"exit": true
 				},
@@ -101,13 +101,6 @@
 					"exit": true
 				},
 				{
-					"icon": "power-off",
-					"command": "M80 192.168.1.123/1",
-					"color": "#4cd137",
-					"confirm": false,
-					"exit": true
-				},
-				{
 					"icon": "redo-alt",
 					"command": "[!RELOAD]",
 					"color": "#7f8fa6",
@@ -115,11 +108,11 @@
 					"exit": false
 				},
 				{
-					"icon": "power-off",
-					"command": "[!SHUTDOWN]",
-					"color": "#e84118",
-					"confirm": true,
-					"exit": false
+					"icon": "microchip",
+					"command": "FIRMWARE_RESTART",
+					"color": "#c23616",
+					"confirm": false,
+					"exit": true
 				}
 			],
 			"fileSorting": {
