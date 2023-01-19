@@ -1,12 +1,13 @@
 # Klipper-Configs
-Just my set of configs for the Artillery Genius Pro running Klipper
+My Artillery Genius Pro with Klipper + Moonraker + Mainsail
 
 ## Installation + Configuration
 - Raspberry Pi OS Lite (32 bit)
 - Set hostname to ```octopi.local```
 - [Install KIAUH](https://www.lpomykal.cz/kiauh-installation-guide/)
   - In KIAUH install Klipper + Moonraker + Mainsail
+- Clone this git repo into ```/home/pi/printer_data/config/```
 
 ## Octodash Setup (Obsolete)
-TODO remove this
+TODO remove this and replace it with KlipperScreen
 ```cp ~/klipper_config/octodash_config.json ~/.config/octodash/config.json```
